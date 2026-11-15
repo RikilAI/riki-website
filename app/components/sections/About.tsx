@@ -85,7 +85,7 @@ export default function About() {
             </div>
 
             <div className="flex flex-wrap gap-3 justify-end mt-8">
-              {["הרצאות", "סדנאות", "AI Academy", "AI Underground", "ייעוץ", "Outsourcing"].map((tag) => (
+              {["הרצאות", "סדנאות", "תכניות הכשרה", "AI Academy", "ליווי מנהלים"].map((tag) => (
                 <span
                   key={tag}
                   className="px-4 py-1.5 rounded-full text-sm font-medium"

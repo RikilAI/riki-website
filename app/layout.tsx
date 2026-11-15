@@ -26,22 +26,22 @@ const heebo = Heebo({
 export const metadata: Metadata = {
   title: "ריקי לויסמן | מרצה AI, הכשרת AI לארגונים, הטמעת AI",
   description:
-    "ריקי לויסמן — מרצה AI, סדנאות GenAI, מובילת תוכניות להטמעת AI בעבודה השוטפת. 1,000+ משתתפים. להזמנה: 052-880-6346.",
+    "ריקי לויסמן, מרצה AI לאקדמיה, לתעשייה, לארגונים ולעמותות. הרצאות, סדנאות ובניית תכניות הכשרה ייעודיות: AI לסטודנטים, לסגל אקדמי, להורים ו-Physical AI. להזמנה: 052-880-6346.",
   keywords: [
-    // שם — branded
+    // שם, branded
     "ריקי לויסמן", "Riki Levisman", "Rebecca Levisman", "ריבקה לויסמן",
     "רבקה לויסמן", "Rivka Levisman",
-    // הרצאות — נפח גבוה
+    // הרצאות, נפח גבוה
     "מרצה AI", "מרצה בינה מלאכותית", "מרצה GenAI",
     "מרצה AI לארגונים", "הרצאת AI לארגון", "הרצאת AI לכנס",
     "הרצאה על בינה מלאכותית לארגון", "הרצאה על ChatGPT לעובדים",
     "AI speaker Israel", "GenAI keynote speaker Israel",
-    // סדנאות — נפח גבוה
+    // סדנאות, נפח גבוה
     "סדנת AI לארגונים", "סדנת GenAI", "סדנת AI לעובדים",
     "סדנת AI למנהלים", "סדנת AI לצוות",
     "הכשרת AI לארגונים", "הכשרת GenAI", "הכשרת בינה מלאכותית לעובדים",
     "לימוד AI לעובדים", "AI workshop Israel", "corporate AI training Israel",
-    // הטמעה וייעוץ — כוונת רכישה גבוהה
+    // הטמעה וייעוץ, כוונת רכישה גבוהה
     "הטמעת AI בארגון", "ליווי הטמעת AI", "יועצת AI לארגונים",
     "מומחה AI לארגונים", "אסטרטגיית AI לארגון",
     "AI adoption consultant Israel", "AI transformation Israel",
@@ -50,14 +50,21 @@ export const metadata: Metadata = {
     "executive AI coaching", "AI coaching למנהלים",
     // אקדמיה
     "מרצה AI לאקדמיה", "מרצה AI במכללה", "AI לסגל אקדמי",
-    // רפואה — נישה פתוחה
+    "AI לסטודנטים", "הרצאת AI לסטודנטים", "ללמוד עם AI", "AI for Students",
+    // הורים
+    "הרצאה להורים על AI", "ילדים ובינה מלאכותית", "AI בשיעורי בית", "ערב הורים AI",
+    // Physical AI
+    "Physical AI", "הרצאה על Physical AI", "רובוטיקה ובינה מלאכותית", "Physical AI לתעשייה",
+    // עמותות ואירועים
+    "AI לעמותות", "הרצאת AI לעמותה", "הרצאת AI לאירוע חברה", "הרצאת AI למפגש פרטי",
+    // רפואה, נישה פתוחה
     "AI לצוותים רפואיים", "AI לבתי חולים", "הכשרת AI לצוות רפואי",
     "GenAI for healthcare Israel",
     // long-tail עם כוונת רכישה
     "מרצה AI לאירוע חברה", "hire AI speaker Israel",
     "book AI keynote speaker Israel", "AI training program employees Israel",
     // תוכניות
-    "AI Underground", "AI Academy",
+    "AI Academy", "AI Study",
   ],
   authors: [{ name: "ריקי לויסמן", url: "https://www.linkedin.com/in/riki-levisman-7b8b6611/" }],
   openGraph: {
@@ -66,21 +73,21 @@ export const metadata: Metadata = {
     url: "https://rikilevisman.com",
     title: "ריקי לויסמן | מרצה AI, סדנאות GenAI, הטמעת AI לארגונים",
     description:
-      "מרצה AI לארגונים, אקדמיה ומוסדות רפואיים. מובילת תכניות הטמעת AI וסדנאות GenAI. להזמנה: 052-880-6346.",
+      "הרצאות, סדנאות ובניית תכניות הכשרה ייעודיות ב-AI לאקדמיה, לתעשייה, לארגונים ולעמותות. להזמנה: 052-880-6346.",
     siteName: "ריקי לויסמן",
     images: [
       {
         url: "https://rikilevisman.com/images/hero-main.png",
         width: 1200,
         height: 630,
-        alt: "ריקי לויסמן — מרצה AI",
+        alt: "ריקי לויסמן, מרצה AI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ריקי לויסמן | מרצה AI וסדנאות GenAI",
-    description: "מרצה AI לארגונים, אקדמיה ומוסדות רפואיים. להזמנה: 052-880-6346.",
+    description: "הרצאות וסדנאות AI לאקדמיה, לתעשייה, לארגונים ולעמותות. להזמנה: 052-880-6346.",
   },
   robots: {
     index: true,
@@ -101,13 +108,15 @@ const jsonLd = {
       "name": "ריקי לויסמן",
       "alternateName": ["Riki Levisman", "Rebecca Levisman", "ריבקה לויסמן"],
       "jobTitle": "AI Lecturer & GenAI Adoption Leader",
-      "description": "מרצה AI ומובילת תכניות הטמעת בינה מלאכותית לארגונים, אקדמיה ומוסדות רפואיים. מלווה מנהלים 1:1 בהטמעת AI. מעבירה הרצאות, סדנאות ותכניות הדרכה מותאמות.",
+      "description": "מרצה AI לאקדמיה, לתעשייה, לארגונים ולעמותות. מעבירה הרצאות וסדנאות ובונה תכניות הכשרה ייעודיות: AI לסטודנטים, לסגל אקדמי, להורים, Physical AI ו-AI בעבודה. מלווה מנהלים 1:1.",
       "knowsAbout": [
         "Generative AI", "GenAI", "AI Adoption", "AI in Healthcare",
         "AI Education", "AI Training for Organizations", "Innovation Management",
         "Organizational Change with AI", "Executive AI Coaching",
         "AI Workshops", "AI Lectures", "Prompt Engineering",
-        "AI tools for professionals", "AI Academy", "AI Underground",
+        "AI tools for professionals", "AI Academy",
+        "AI for Students", "Learning with AI", "AI for Faculty",
+        "AI for Parents", "Physical AI", "AI for Nonprofits",
       ],
       "hasOccupation": [
         {
@@ -133,24 +142,25 @@ const jsonLd = {
         "https://future.hit.ac.il/team",
         "https://future.hit.ac.il/aiacademy-2",
         "https://future.hit.ac.il/ai-academy-3",
-        "https://rikilai.github.io/the-ai-underground/",
+        "https://youtu.be/KjIk9ayPgPo",
         "https://hymc.org.il/?CategoryID=25&ArticleID=12347",
         "https://marketing.walla.co.il/item/3628554",
         "https://www.hit.ac.il/events/050320251300/",
         "https://gal-gefen.co.il/news/204746",
       ],
       "telephone": "+972528806346",
+      "email": "Riki4ai@gmail.com",
       "url": "https://rikilevisman.com",
     },
     {
       "@type": "Organization",
       "@id": "https://rikilevisman.com/#organization",
-      "name": "FUTURE — מרכז יזמות וחדשנות, HIT",
+      "name": "FUTURE, מרכז היזמות והחדשנות של HIT",
       "alternateName": "FUTURE Center, Holon Institute of Technology",
       "parentOrganization": {
         "@type": "Organization",
         "name": "Holon Institute of Technology",
-        "alternateName": "HIT — מכון טכנולוגי חולון",
+        "alternateName": "HIT, מכון טכנולוגי חולון",
         "url": "https://www.hit.ac.il",
       },
       "url": "https://future.hit.ac.il",
@@ -166,17 +176,20 @@ const jsonLd = {
     {
       "@type": "ProfessionalService",
       "@id": "https://rikilevisman.com/#service",
-      "name": "ריקי לויסמן — הרצאות, סדנאות והטמעת AI",
+      "name": "ריקי לויסמן: הרצאות, סדנאות ובניית תכניות הכשרה ייעודיות ב-AI",
       "provider": { "@id": "https://rikilevisman.com/#person" },
       "serviceType": [
         "AI Lectures & Keynotes",
-        "GenAI Workshops for Organizations",
-        "AI Adoption Programs",
+        "AI Lectures for Company Events and Private Gatherings",
+        "Hands-on AI Workshops",
+        "Dedicated AI Training Programs",
         "Executive AI Coaching",
-        "Tailor-Made AI Training",
-        "AI Outsourcing Projects",
-        "AI for Healthcare Teams",
-        "AI for Academic Institutions",
+        "AI for Students",
+        "AI for Academic Faculty",
+        "Physical AI Lectures",
+        "AI Lectures for Parents",
+        "AI for Organizations and Nonprofits",
+        "AI for Entrepreneurs",
       ],
       "areaServed": "Israel",
       "availableLanguage": ["Hebrew", "English"],
@@ -188,7 +201,7 @@ const jsonLd = {
       "itemListElement": [
         {
           "@type": "Review",
-          "reviewBody": "Riki Levisman — an incredibly energetic and forward-thinking AI instructor. In just a few sessions, she helped us transform ideas into a clear PRD and MVP, showing how AI is not only accelerating execution but also reshaping the way we design, build, and think about products.",
+          "reviewBody": "Riki Levisman, an incredibly energetic and forward-thinking AI instructor. In just a few sessions, she helped us transform ideas into a clear PRD and MVP, showing how AI is not only accelerating execution but also reshaping the way we design, build, and think about products.",
           "author": { "@type": "Person", "name": "משתתף" },
           "itemReviewed": { "@id": "https://rikilevisman.com/#person" },
           "publisher": { "@type": "Organization", "name": "תכנית מצוינות VISTAR, אזרבייג'ן" },
@@ -256,7 +269,7 @@ const jsonLd = {
           "name": "מה ההבדל בין הרצאת AI לסדנת AI?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "הרצאת AI מתאימה לכנסים, ימי עיון וקהלים גדולים — חשיפה ותודעה. סדנת AI היא תהליך מעשי יותר לצוות ספציפי, שמסתיים עם כלים שאפשר להשתמש בהם מחר בבוקר. ריקי מציעה את שניהם.",
+            "text": "הרצאת AI מתאימה לכנסים, לאירועי חברה, לימי עיון ולמפגשים פרטיים, וחושפת את הקהל לאפשרויות. סדנת AI היא תהליך מעשי יותר לצוות ספציפי, שמסתיים עם כלים שאפשר להשתמש בהם מחר בבוקר. ריקי מציעה את שניהם.",
           },
         },
         {

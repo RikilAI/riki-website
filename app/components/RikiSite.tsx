@@ -4,6 +4,7 @@ import { content, Lang } from "./content";
 
 const WHATSAPP = "https://wa.me/972528806346";
 const LINKEDIN = "https://www.linkedin.com/in/riki-levisman-7b8b6611/";
+const EMAIL = "Riki4ai@gmail.com";
 
 function useInView(threshold = 0.15) {
   const ref = useRef<HTMLDivElement>(null);
@@ -42,11 +43,40 @@ function ServiceCard({ s, F }: { s: { icon: string; title: string; en: string; d
   );
 }
 
+function LectureCard({ l, F, newBadge }: { l: { title: string; en: string; desc: string; formats: string; isNew: boolean }; F: string; newBadge: string }) {
+  const [hovered, setHovered] = useState(false);
+  return (
+    <article
+      style={{ padding: 32, border: `1px solid ${hovered ? "#C8922A" : "#252525"}`, background: "#0d0d0d", transition: "border-color 0.3s", textAlign: "inherit", boxSizing: "border-box", display: "flex", flexDirection: "column" }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap", margin: "0 0 4px 0" }}>
+        <h3 style={{ fontFamily: F, fontSize: 17, fontWeight: 700, color: "#fff", margin: 0 }}>{l.title}</h3>
+        {l.isNew && (
+          <span style={{ fontFamily: F, fontSize: 11, fontWeight: 700, color: "#0a0a0a", background: "#C8922A", padding: "2px 8px" }}>{newBadge}</span>
+        )}
+      </div>
+      <div style={{ fontFamily: F, fontSize: 12, color: "#999", marginBottom: 14 }}>{l.en}</div>
+      <p style={{ fontFamily: F, fontSize: 14, color: "#aaa", lineHeight: 1.85, margin: "0 0 18px 0", flex: 1 }}>{l.desc}</p>
+      <div style={{ fontFamily: F, fontSize: 12, color: "#C8922A", borderTop: "1px solid #1f1f1f", paddingTop: 14 }}>{l.formats}</div>
+    </article>
+  );
+}
+
+const srOnly: React.CSSProperties = { position: "absolute", width: 1, height: 1, padding: 0, margin: -1, overflow: "hidden", clip: "rect(0,0,0,0)", whiteSpace: "nowrap", border: 0 };
+
 function ContactButtons({ F, whatsappLabel }: { F: string; whatsappLabel: string }) {
   const [p, setP] = useState(false);
   const [s, setS] = useState(false);
+  const [m, setM] = useState(false);
   return (
     <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
+      <a href={`mailto:${EMAIL}`} dir="ltr"
+        style={{ border: `1px solid ${m ? "#C8922A" : "#3a3a3a"}`, color: m ? "#C8922A" : "#bbb", padding: "14px 36px", fontSize: 14, textDecoration: "none", fontFamily: F, transition: "all 0.2s", display: "inline-block", background: "transparent" }}
+        onMouseEnter={() => setM(true)} onMouseLeave={() => setM(false)}>
+        {EMAIL}
+      </a>
       <a href={WHATSAPP} target="_blank" rel="noopener noreferrer"
         style={{ background: p ? "#ffc020" : "#C8922A", color: "#0a0a0a", padding: "14px 36px", fontWeight: 800, fontSize: 14, textDecoration: "none", fontFamily: F, transition: "all 0.2s", display: "inline-block", transform: p ? "translateY(-2px)" : "none" }}
         onMouseEnter={() => setP(true)} onMouseLeave={() => setP(false)}>
@@ -84,7 +114,7 @@ export default function RikiSite() {
       {/* NAV */}
       <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, padding: "0 32px", height: 60, display: "flex", alignItems: "center", justifyContent: "space-between", background: scrolled ? "rgba(10,10,10,0.95)" : "transparent", backdropFilter: scrolled ? "blur(16px)" : "none", borderBottom: scrolled ? "1px solid #181818" : "none", transition: "all 0.4s ease" }}>
 
-        {/* Language toggle — left side always */}
+        {/* Language toggle, always on the left side */}
         <button
           onClick={() => setLang(isEn ? "he" : "en")}
           style={{ fontFamily: F, fontSize: 11, fontWeight: 600, letterSpacing: "2px", color: "#C8922A", background: "transparent", border: "1px solid #C8922A44", padding: "5px 12px", cursor: "pointer", transition: "all 0.2s", textTransform: "uppercase" }}
@@ -95,10 +125,10 @@ export default function RikiSite() {
           {isEn ? "HE" : "EN"}
         </button>
 
-        {/* Nav links — right side */}
-        <div style={{ display: "flex", gap: 32, alignItems: "center" }}>
-          {([["#about", t.nav.about], ["#services", t.nav.services], ["#contact", t.nav.contact]] as [string, string][]).map(([href, label]) => (
-            <a key={href} href={href} style={{ fontFamily: F, color: "#aaa", fontSize: 12, fontWeight: 400, textDecoration: "none", letterSpacing: 1, transition: "color 0.2s" }}
+        {/* Nav links, right side */}
+        <div className="nav-links" style={{ display: "flex", alignItems: "center" }}>
+          {([["#about", t.nav.about], ["#lectures", t.nav.lectures], ["#services", t.nav.services], ["#contact", t.nav.contact]] as [string, string][]).map(([href, label]) => (
+            <a key={href} href={href} className={href === "#lectures" ? "nav-link nav-link-keep" : "nav-link"} style={{ fontFamily: F, color: "#aaa", fontSize: 12, fontWeight: 400, textDecoration: "none", letterSpacing: 1, transition: "color 0.2s" }}
               onMouseEnter={e => (e.currentTarget.style.color = "#fff")}
               onMouseLeave={e => (e.currentTarget.style.color = "#aaa")}>
               {label}
@@ -118,7 +148,7 @@ export default function RikiSite() {
 
         <img
           src="/images/hero-main.png"
-          alt="ריקי לויסמן מרצה AI — Riki Levisman AI lecturer"
+          alt={isEn ? "Riki Levisman, AI lecturer" : "ריקי לויסמן, מרצה AI"}
           className="hero-photo"
         />
 
@@ -143,6 +173,11 @@ export default function RikiSite() {
 
             <p className="hero-name-en">{t.hero.nameEn}</p>
 
+            <div className="hero-offer" dir={t.dir}>
+              <p className="hero-audiences">{t.hero.audiences}</p>
+              <p className="hero-offer-line">{t.hero.offer}</p>
+            </div>
+
             <div className="hero-ctas">
               <a
                 href={WHATSAPP}
@@ -155,7 +190,7 @@ export default function RikiSite() {
                 {t.hero.ctaPrimary}
               </a>
               <a
-                href="#services"
+                href="#lectures"
                 className="hero-btn-ghost"
                 onMouseEnter={e => { e.currentTarget.style.borderColor = "#C8922A"; e.currentTarget.style.color = "#C8922A"; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.18)"; e.currentTarget.style.color = "rgba(255,255,255,0.5)"; }}
@@ -283,8 +318,29 @@ export default function RikiSite() {
           letter-spacing: 5px;
           color: #555;
           text-transform: uppercase;
-          margin: 0 0 32px 0;
+          margin: 0 0 24px 0;
           animation: heroFadeUp 0.6s 0.7s ease both;
+        }
+        .hero-offer {
+          text-align: left;
+          margin: 0 0 28px 0;
+          animation: heroFadeUp 0.6s 0.8s ease both;
+        }
+        .hero-audiences {
+          font-family: var(--font-heebo), 'Heebo', sans-serif;
+          font-size: clamp(14px, 1.3vw, 16px);
+          font-weight: 700;
+          color: #C8922A;
+          margin: 0 0 4px 0;
+          line-height: 1.5;
+        }
+        .hero-offer-line {
+          font-family: var(--font-heebo), 'Heebo', sans-serif;
+          font-size: clamp(14px, 1.3vw, 16px);
+          font-weight: 400;
+          color: #bbb;
+          margin: 0;
+          line-height: 1.5;
         }
         .hero-sep {
           width: 36px;
@@ -420,15 +476,30 @@ export default function RikiSite() {
         </div>
       </section>
 
-      {/* ═══ SERVICES ═══ */}
-      <section id="services" style={{ padding: "80px 24px", maxWidth: 1100, margin: "0 auto", boxSizing: "border-box" }}>
+      {/* ═══ LECTURES ═══ */}
+      <section id="lectures" style={{ padding: "80px 24px 40px", maxWidth: 1100, margin: "0 auto", boxSizing: "border-box" }}>
+        <Section>
+          <div style={{ textAlign: isEn ? "left" : "right", marginBottom: 48 }}>
+            <div style={{ fontFamily: F, fontSize: 10, color: "#C8922A", textTransform: "uppercase", letterSpacing: "3px", marginBottom: 12 }}>{t.lectures.label}</div>
+            <h2 style={{ fontFamily: F, fontSize: "clamp(28px,4vw,48px)", fontWeight: 900, color: "#fff", margin: 0 }}>{t.lectures.heading}</h2>
+          </div>
+        </Section>
+        <div className="services-grid">
+          {t.lectures.items.map((l, i) => (
+            <LectureCard key={i} l={l} F={F} newBadge={t.lectures.newBadge} />
+          ))}
+        </div>
+      </section>
+
+      {/* ═══ SERVICES (formats) ═══ */}
+      <section id="services" style={{ padding: "40px 24px 80px", maxWidth: 1100, margin: "0 auto", boxSizing: "border-box" }}>
         <Section>
           <div style={{ textAlign: isEn ? "left" : "right", marginBottom: 48 }}>
             <div style={{ fontFamily: F, fontSize: 10, color: "#C8922A", textTransform: "uppercase", letterSpacing: "3px", marginBottom: 12 }}>{t.services.label}</div>
             <h2 style={{ fontFamily: F, fontSize: "clamp(28px,4vw,48px)", fontWeight: 900, color: "#fff", margin: 0 }}>{t.services.heading}</h2>
           </div>
         </Section>
-        <div className="services-grid">
+        <div className="formats-grid">
           {t.services.items.map((s, i) => (
             <ServiceCard key={i} s={s} F={F} WHATSAPP={WHATSAPP} />
           ))}
@@ -440,32 +511,37 @@ export default function RikiSite() {
         <div style={{ position: "absolute", top: 0, bottom: 0, left: 0, width: 100, background: "linear-gradient(to right, #050505, transparent)", zIndex: 2, pointerEvents: "none" }} />
         <div style={{ position: "absolute", top: 0, bottom: 0, right: 0, width: 100, background: "linear-gradient(to left, #050505, transparent)", zIndex: 2, pointerEvents: "none" }} />
         <div className="film-track">
-          {[
-            { src: "/images/lecture-1.jpg", alt: "ריקי לויסמן מרצה בהרצאת AI לארגון — Riki Levisman AI lecture" },
-            { src: "/images/lecture-2.jpg", alt: "ריקי לויסמן בסדנת GenAI למנהלים — GenAI workshop" },
-            { src: "/images/lecture-3.jpg", alt: "ריקי לויסמן בכנס AI בישראל — AI conference Israel" },
-            { src: "/images/lecture-4.jpg", alt: "ריקי לויסמן בהכשרת AI לצוות רפואי — AI training healthcare" },
-            { src: "/images/lecture-5.jpg", alt: "ריקי לויסמן מרצה לקהל גדול — keynote audience" },
-            { src: "/images/lecture-6.jpg", alt: "ריקי לויסמן בסדנת AI Underground — AI Underground workshop" },
-            { src: "/images/lecture-7.jpg", alt: "ריקי לויסמן בתכנית VISTAR באזרבייג'ן — VISTAR program Azerbaijan" },
-            { src: "/images/lecture-8.jpg", alt: "ריקי לויסמן בהדרכת AI Academy — AI Academy HIT" },
-            { src: "/images/lecture-9.jpg", alt: "ריקי לויסמן מובילת AI — Riki Levisman AI leader" },
-            { src: "/images/lecture-1.jpg", alt: "ריקי לויסמן מרצה בהרצאת AI לארגון — Riki Levisman AI lecture" },
-            { src: "/images/lecture-2.jpg", alt: "ריקי לויסמן בסדנת GenAI למנהלים — GenAI workshop" },
-            { src: "/images/lecture-3.jpg", alt: "ריקי לויסמן בכנס AI בישראל — AI conference Israel" },
-            { src: "/images/lecture-4.jpg", alt: "ריקי לויסמן בהכשרת AI לצוות רפואי — AI training healthcare" },
-            { src: "/images/lecture-5.jpg", alt: "ריקי לויסמן מרצה לקהל גדול — keynote audience" },
-            { src: "/images/lecture-6.jpg", alt: "ריקי לויסמן בסדנת AI Underground — AI Underground workshop" },
-            { src: "/images/lecture-7.jpg", alt: "ריקי לויסמן בתכנית VISTAR באזרבייג'ן — VISTAR program Azerbaijan" },
-            { src: "/images/lecture-8.jpg", alt: "ריקי לויסמן בהדרכת AI Academy — AI Academy HIT" },
-            { src: "/images/lecture-9.jpg", alt: "ריקי לויסמן מובילת AI — Riki Levisman AI leader" },
-          ].map(({ src, alt }, i) => (
+          {[...t.gallery, ...t.gallery].map((alt, i) => ({ src: `/images/lecture-${(i % 9) + 1}.jpg`, alt })).map(({ src, alt }, i) => (
             <div key={i} className="film-frame">
               <img src={src} alt={alt} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block", filter: "grayscale(20%) brightness(0.85) contrast(1.05)" }} />
             </div>
           ))}
         </div>
       </div>
+
+      {/* ═══ WATCH ═══ */}
+      <section id="watch" style={{ padding: "60px 24px", maxWidth: 1100, margin: "0 auto", boxSizing: "border-box" }}>
+        <Section>
+          <div style={{ textAlign: isEn ? "left" : "right", marginBottom: 32 }}>
+            <div style={{ fontFamily: F, fontSize: 10, color: "#C8922A", textTransform: "uppercase", letterSpacing: "3px", marginBottom: 10 }}>{t.watch.label}</div>
+            <h2 style={{ fontFamily: F, fontSize: "clamp(24px,3.5vw,40px)", fontWeight: 900, color: "#fff", margin: 0 }}>{t.watch.heading}</h2>
+          </div>
+          <ul style={{ listStyle: "none", margin: 0, padding: 0, borderTop: "1px solid #1f1f1f" }}>
+            {t.watch.items.map((w) => (
+              <li key={w.href} className="watch-row" style={{ borderBottom: "1px solid #1f1f1f", padding: "18px 0" }}>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontFamily: F, fontSize: 16, fontWeight: 700, color: "#fff" }}><bdi>{w.title}</bdi></div>
+                  <div style={{ fontFamily: F, fontSize: 14, color: "#999", marginTop: 2 }}>{w.desc}</div>
+                </div>
+                <a href={w.href} target="_blank" rel="noopener noreferrer"
+                  style={{ fontFamily: F, fontSize: 14, fontWeight: 600, color: "#C8922A", textDecoration: "underline", textUnderlineOffset: 4, whiteSpace: "nowrap", display: "inline-flex", alignItems: "center", minHeight: 44 }}>
+                  {w.cta}<span style={srOnly}> {w.title} {t.watch.newWindow}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Section>
+      </section>
 
       {/* ═══ TESTIMONIALS ═══ */}
       <section style={{ background: "#060606", padding: "60px 24px" }}>
@@ -506,7 +582,7 @@ export default function RikiSite() {
               <span style={{ color: "#fff" }}>{t.contact.line1}</span><br />
               <span style={{ color: "#C8922A" }}>{t.contact.line2}</span>
             </h2>
-            <p style={{ fontFamily: F, fontSize: 14, color: "#444", marginBottom: 48 }}>{t.contact.sub}</p>
+            <p style={{ fontFamily: F, fontSize: 15, color: "#aaa", lineHeight: 1.7, maxWidth: 520, margin: "0 auto 48px" }}>{t.contact.sub}</p>
             <ContactButtons F={F} whatsappLabel={t.contact.whatsapp} />
           </Section>
         </div>
@@ -526,6 +602,12 @@ export default function RikiSite() {
             onMouseEnter={e => (e.currentTarget.style.color = "#C8922A")}
             onMouseLeave={e => (e.currentTarget.style.color = "#555")}>
             WhatsApp
+          </a>
+          <a href={`mailto:${EMAIL}`}
+            style={{ fontFamily: F, fontSize: 11, color: "#555", textDecoration: "none", letterSpacing: 1, transition: "color 0.2s" }}
+            onMouseEnter={e => (e.currentTarget.style.color = "#C8922A")}
+            onMouseLeave={e => (e.currentTarget.style.color = "#555")}>
+            {EMAIL}
           </a>
           <span style={{ fontFamily: F, fontSize: 9, color: "#C8922A", letterSpacing: "3px", textTransform: "uppercase" }}>{t.footer.badge}</span>
         </div>
@@ -566,14 +648,22 @@ export default function RikiSite() {
           background: linear-gradient(135deg, rgba(200,146,42,0.05) 0%, transparent 60%);
           pointer-events: none;
         }
-        .services-grid { display: grid; grid-template-columns: 1fr; gap: 1px; background: #181818; }
+        .services-grid, .formats-grid { display: grid; grid-template-columns: 1fr; gap: 1px; background: #181818; }
         .testimonials-grid { display: grid; grid-template-columns: 1fr; }
+        .nav-links { gap: 32px; }
+        .watch-row { display: flex; align-items: center; gap: 24px; }
+        @media (max-width: 640px) {
+          .nav-links { gap: 14px; }
+          .nav-link:not(.nav-link-keep) { display: none; }
+          .watch-row { flex-direction: column; align-items: flex-start; gap: 4px; }
+        }
         @media (min-width: 768px) {
-          .services-grid { grid-template-columns: 1fr 1fr; }
+          .services-grid, .formats-grid { grid-template-columns: 1fr 1fr; }
           .testimonials-grid { grid-template-columns: 1fr 1fr; }
         }
         @media (min-width: 1024px) {
           .services-grid { grid-template-columns: 1fr 1fr 1fr; }
+          .formats-grid { grid-template-columns: 1fr 1fr 1fr 1fr; }
           footer { padding: 20px 48px !important; }
         }
       `}</style>
