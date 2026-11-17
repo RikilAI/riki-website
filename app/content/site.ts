@@ -198,7 +198,7 @@ const he = {
     portraitAlt: "ריקי לויסמן",
     paragraphs: [
       "אני מובילה תהליכי חדשנות ו-AI, יועצת אסטרטגית, מרצה ומפתחת תוכניות הכשרה וחדשנות. אני עובדת בחיבור שבין אסטרטגיית AI, למידה, יזמות ויישום מעשי, בארגונים, באקדמיה ובמגזר הציבורי.",
-      "מאז 2019 אני ב-FUTURE, מרכז היזמות והחדשנות של HIT, מכון טכנולוגי חולון, וכיום מנהלת חדשנות וראש תחום ה-AI. שם אני מתכננת ומובילה תוכניות הכשרה ב-AI לסטודנטים, לחוקרים ולסגל, מפיקה האקתונים ו-AI Sprints יחד עם חברות וארגונים, ומנהלת קהילת AI של סגל וסטודנטים.",
+      "מאז 2019 אני ב-FUTURE, מרכז היזמות והחדשנות של HIT, מכון טכנולוגי חולון, וכיום מנהלת חדשנות וראש תחום ה-AI. אני מתכננת ומפיקה האקתונים ו-AI Sprints לסטודנטים יחד עם חברות וארגונים, ובנוסף חוקרת, יוצרת ומעבירה סדנאות והרצאות לסטודנטים, לסגל האקדמי ולחוקרים, בחיבור שבין חדשנות, AI ועולם העבודה החדש. אני גם מנהלת קהילת AI באקדמיה.",
       "במקביל אני עובדת כיועצת עצמאית: ליווי אסטרטגי, ניהול ידע ומחקר בפרויקטים של מדיניות, והרצאות וסדנאות לארגונים, לעמותות ולמוסדות אקדמיים וציבוריים.",
       "לפני כן עבדתי כ-20 שנה בתפקידי ניהול באסטרטגיה, בשיווק ובפיתוח עסקי בחברות תקשורת, טכנולוגיה ופיננסים.",
     ],
@@ -428,7 +428,7 @@ const en: typeof he = {
     portraitAlt: "Riki Levisman",
     paragraphs: [
       "I lead AI and innovation processes as a strategic consultant, lecturer and program developer, working at the intersection of AI strategy, education, entrepreneurship and practical implementation, across organizations, academia and the public sector.",
-      "Since 2019 I have been at FUTURE, the Entrepreneurship and Innovation Center of HIT, Holon Institute of Technology, where I am currently Innovation Manager and Head of AI. There I design and lead AI training programs for students, researchers and faculty, produce hackathons and AI Sprints with companies and organizations, and run an AI community of faculty and students.",
+      "Since 2019 I have been at FUTURE, the Entrepreneurship and Innovation Center of HIT, Holon Institute of Technology, where I am currently Innovation Manager and Head of AI. I design and produce hackathons and AI Sprints for students together with companies and organizations, and I research, create and deliver workshops and lectures for students, faculty and researchers at the intersection of innovation, AI and the new world of work. I also run an AI community in academia.",
       "Alongside this role I work as an independent consultant: strategic support, knowledge management and research in policy projects, and lectures and workshops for organizations, nonprofits and academic and public institutions.",
       "Before that, I spent about 20 years in management roles in strategy, marketing and business development at telecom, technology and finance companies.",
     ],
