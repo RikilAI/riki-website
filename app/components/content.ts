@@ -42,7 +42,7 @@ export const content = {
         {
           title: "AI for Students",
           en: "ללמוד עם AI כשותף",
-          desc: "לסטודנטים מכל הפקולטות. איך לומדים עם AI בלי לוותר על החשיבה: הופכים חומרי קורס למחברת חכמה, לפודקאסט ולבוחן, ועוברים מרעיון לאב טיפוס. כל משתתף מקבל מדריך מלא.",
+          desc: "לסטודנטים מכל הפקולטות. איך לומדים עם AI בלי לוותר על החשיבה, ואיך הופכים את חומרי הקורס למחברת חכמה שמתפתחת עם הקורס ומלווה את הסטודנטים כמנטור אישי להשבחת תהליך הלמידה.",
           formats: "כשעה וחצי · בקמפוס או בזום",
           isNew: false,
         },
@@ -184,7 +184,7 @@ export const content = {
         {
           title: "AI for Students",
           en: "Learning with AI as a partner",
-          desc: "For students in every faculty. Learning with AI without giving up on thinking: turning course materials into a smart notebook, a podcast and a quiz, and going from idea to prototype. Everyone gets a full guide.",
+          desc: "For students in every faculty. Learning with AI without giving up on thinking, and turning course materials into a smart notebook that grows with the course and guides students like a personal mentor.",
           formats: "About 90 minutes · On campus or on Zoom",
           isNew: false,
         },
