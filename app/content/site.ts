@@ -206,7 +206,6 @@ const he = {
   },
 
   testimonials: {
-    label: "מה אומרים",
     heading: "משתתפים מספרים",
     items: [
       { text: "מאוד מעורר. התגלה לפני עולם שלם של אופציות שלא הכרתי.", role: "משתתף", org: "AI Academy, HIT" },
@@ -436,7 +435,6 @@ const en: typeof he = {
   },
 
   testimonials: {
-    label: "What people say",
     heading: "Participants share",
     items: [
       { text: "Riki Levisman, an incredibly energetic and forward-thinking AI instructor. In just a few sessions, she helped us transform ideas into a clear PRD and MVP, showing how AI is not only accelerating execution but also reshaping the way we design, build, and think about products.", role: "Participant", org: "VISTAR Excellence Program, Azerbaijan" },

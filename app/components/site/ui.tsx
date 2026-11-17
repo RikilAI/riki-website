@@ -88,10 +88,7 @@ export function Testimonials({ lang }: { lang: Lang }) {
   return (
     <section className="section section-alt" aria-labelledby="testimonials-h">
       <div className="wrap">
-        <Reveal>
-          <div className="label">{t.label}</div>
-          <h2 id="testimonials-h" className="h2" style={{ marginBottom: 28 }}>{t.heading}</h2>
-        </Reveal>
+        <h2 id="testimonials-h" className="label" style={{ marginBottom: 24 }}>{t.heading}</h2>
         <div className="testimonials">
           {t.items.map((q, i) => {
             const en = isLatin(q.text);
