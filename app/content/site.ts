@@ -126,7 +126,7 @@ const he = {
     whatLabel: "מה זה כולל",
     what: ["תוכניות יזמות", "האקתונים ו-AI Sprints", "אירועי חדשנות", "פיתוח יוזמות ו-MVP מבוססי AI", "חיבור בין אקדמיה, תעשייה ומגזר ציבורי"],
     hitLabel: "ב-FUTURE, HIT",
-    hitText: "ב-FUTURE, מרכז היזמות והחדשנות של HIT, אני מתכננת ומפיקה האקתונים ו-AI Sprints לסטודנטים יחד עם חברות וארגונים, ומלמדת AI בתוכניות היזמות.",
+    hitText: "ב-FUTURE, מרכז היזמות והחדשנות של HIT, אני מתכננת ומפיקה האקתונים ו-AI Sprints לסטודנטים יחד עם חברות וארגונים. בנוסף אני חוקרת, יוצרת ומעבירה סדנאות והרצאות לסטודנטים, לסגל האקדמי ולחוקרים, בחיבור שבין חדשנות, AI ועולם העבודה החדש, ומנהלת קהילת AI באקדמיה.",
     projectsLabel: "פרויקטים",
     projects: [
       { org: "VISTAR, באקו, אזרבייג'ן", desc: "תוכנית יזמות.", type: "תוכנית יזמות" },
@@ -356,7 +356,7 @@ const en: typeof he = {
     whatLabel: "What it covers",
     what: ["Entrepreneurship programs", "Hackathons and AI Sprints", "Innovation events", "Developing AI-based initiatives and MVPs", "Connecting academia, industry and the public sector"],
     hitLabel: "At FUTURE, HIT",
-    hitText: "At FUTURE, HIT's Entrepreneurship and Innovation Center, I design and produce hackathons and AI Sprints for students together with companies and organizations, and teach AI in the entrepreneurship programs.",
+    hitText: "At FUTURE, HIT's Entrepreneurship and Innovation Center, I design and produce hackathons and AI Sprints for students together with companies and organizations. I also research, create and deliver workshops and lectures for students, faculty and researchers at the intersection of innovation, AI and the new world of work, and run an AI community in academia.",
     projectsLabel: "Projects",
     projects: [
       { org: "VISTAR, Baku, Azerbaijan", desc: "Entrepreneurship program.", type: "Entrepreneurship program" },
