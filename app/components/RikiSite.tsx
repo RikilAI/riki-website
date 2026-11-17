@@ -59,7 +59,7 @@ function LectureCard({ l, F, newBadge }: { l: { title: string; en: string; desc:
       </div>
       <div style={{ fontFamily: F, fontSize: 12, color: "#999", marginBottom: 14 }}>{l.en}</div>
       <p style={{ fontFamily: F, fontSize: 14, color: "#aaa", lineHeight: 1.85, margin: "0 0 18px 0", flex: 1 }}>{l.desc}</p>
-      <div style={{ fontFamily: F, fontSize: 12, color: "#C8922A", borderTop: "1px solid #1f1f1f", paddingTop: 14 }}>{l.formats}</div>
+      {l.formats && <div style={{ fontFamily: F, fontSize: 12, color: "#C8922A", borderTop: "1px solid #1f1f1f", paddingTop: 14 }}>{l.formats}</div>}
     </article>
   );
 }
