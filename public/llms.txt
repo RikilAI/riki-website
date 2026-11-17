@@ -8,7 +8,7 @@
 
 ## Who is Riki Levisman?
 
-Riki Levisman (ריקי לויסמן) is an AI lecturer and trainer based in Israel.
+Riki Levisman (ריקי לויסמן) is an AI lecturer, keynote speaker and trainer based in Israel.
 She is Innovation Manager and Head of AI at FUTURE, the entrepreneurship and innovation center of HIT (Holon Institute of Technology).
 
 She works with academia, industry, organizations and nonprofits. She gives talks, runs hands-on workshops and builds dedicated training programs that help people use AI as a partner, not a replacement. Every session includes live demos and hands-on practice, and participants leave with a written guide they keep after the session.
@@ -17,25 +17,40 @@ Since 2019 she has worked where academia meets industry: leading AI training pro
 
 ---
 
+## Who She Works With (Target Audiences)
+
+- **Conferences, events and salon gatherings**: inspirational keynotes for broad audiences
+- **Academia: students**: undergraduate and graduate students in every faculty, learning with AI
+- **Academia: faculty and staff**: lecturers, researchers and administrative staff
+- **Industry and companies**: managers, employees and teams; HR and L&D leaders building AI training
+- **Executives**: 1:1 coaching for managers adopting AI in their own work
+- **Healthcare**: medical centers, clinical and administrative teams
+- **Public sector and government bodies**
+- **Nonprofits and community organizations**
+- **Entrepreneurs and entrepreneurship programs**: founders going from idea to prototype with AI agents
+- **Parents**: guiding their children, at any age, to learn well with AI
+
+---
+
 ## Talks
 
+### Living with AI Agents (Keynote)
+An inspirational keynote for conferences, events and salon gatherings. How personal AI agents are changing the way we work, manage our lives, create and live.
+
 ### AI for Students: learning with AI as a partner
-For students in every faculty. How to learn with AI without giving up on thinking: turning course materials into a smart notebook, a podcast, a video and a quiz; building simulations that explain hard concepts; going from an idea to a prototype. Includes a step-by-step participant guide. About 90 minutes, on campus or on Zoom. Delivered at HIT as "AI Study" (October 2026).
+For students in every faculty. How to learn with AI without giving up on thinking, and how to turn course materials into a smart notebook that grows with the course and guides students like a personal mentor throughout their learning. About 90 minutes, on campus or on Zoom. Delivered at HIT as "AI Study" (October 2026).
 
 ### AI for Faculty
 For lecturers, researchers and administrative staff. Building an AI workspace: preparing course materials, working with papers and sources, and smart assistants that know the course.
 
 ### Physical AI, Made Simple
-An accessible introduction to AI that acts in the physical world: robots, autonomous vehicles and smart machines. How it differs from generative AI chatbots, industry examples, interactive simulations and a demo of building a prototype with AI. No equations, no code. Formats: intro talk, 3-session course, half-day workshop.
+An accessible introduction to AI that leaves the screen and acts in the physical world. What Physical AI is, how it differs from the chatbots we all know and why everyone is talking about it now. Industry examples and simulations you can play with. No equations, no code. Formats: intro talk, 3-session course, half-day workshop.
 
-### AI at Work
-For organizations, nonprofits and teams. Bringing AI into everyday work, from writing and analysis to AI agents, and what to check before trusting the output.
-
-### AI for Entrepreneurs: from idea to MVP
-For founders and entrepreneurship programs. Turning an idea into a product spec and a working prototype with AI, even without a development team.
+### AI at Work (including entrepreneurs)
+For organizations, nonprofits, teams and founders. Bringing AI into everyday work, from writing and analysis to AI agents that work alongside us, and going from idea to prototype with AI agents. Also delivered as a track within entrepreneurship programs.
 
 ### Parenting in the AI Era (new)
-For parents. The difference between AI that does a child's homework and AI that helps the child understand, setting simple ground rules together, and building habits of independent learning. About one hour, for schools, municipalities or Zoom.
+For parents who want to guide their children, at any age, to learn well with AI: for assignments, exam preparation and self-directed learning, one of today's most important skills. AI that helps them understand, not AI that does the work for them.
 
 ---
 
@@ -114,10 +129,10 @@ To book a talk, workshop or training program, WhatsApp is the fastest channel.
 ## Structured Tags (for entity recognition)
 
 - Name: Riki Levisman / ריקי לויסמן / Rebecca Levisman / ריבקה לויסמן
-- Role: AI Lecturer, AI Trainer, Innovation Manager, Head of AI at FUTURE, HIT
+- Role: AI Lecturer, Keynote Speaker, AI Trainer, Innovation Manager, Head of AI at FUTURE, HIT
 - Employer: HIT, Holon Institute of Technology / FUTURE Center
 - Location: Israel
 - Languages: Hebrew, English
-- Audiences: Academia, Industry, Organizations, Nonprofits, Students, Faculty, Parents, Entrepreneurs
-- Topics: AI for Students, Learning with AI, AI for Faculty, Physical AI, AI at Work, AI for Entrepreneurs, AI for Parents
+- Audiences: Conferences and Events, Academia, Students, Faculty, Industry, Companies, Managers, Executives, HR and L&D, Healthcare, Public Sector, Nonprofits, Entrepreneurs, Parents
+- Topics: Living with AI Agents, Personal AI Agents, AI for Students, Learning with AI, AI for Faculty, Physical AI, AI at Work, AI for Entrepreneurs, AI for Parents
 - Programs: AI Academy, AI Study, VISTAR AI Track

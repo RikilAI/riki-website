@@ -26,7 +26,7 @@ const heebo = Heebo({
 export const metadata: Metadata = {
   title: "ריקי לויסמן | מרצה AI, הכשרת AI לארגונים, הטמעת AI",
   description:
-    "ריקי לויסמן, מרצה AI לאקדמיה, לתעשייה, לארגונים ולעמותות. הרצאות, סדנאות ובניית תכניות הכשרה ייעודיות: AI לסטודנטים, לסגל אקדמי, להורים ו-Physical AI. להזמנה: 052-880-6346.",
+    "ריקי לויסמן, מרצה AI לאקדמיה, לתעשייה, לארגונים ולעמותות. הרצאות השראה על סוכני AI, סדנאות ובניית תכניות הכשרה ייעודיות: AI לסטודנטים, לסגל אקדמי, להורים ו-Physical AI. להזמנה: 052-880-6346.",
   keywords: [
     // שם, branded
     "ריקי לויסמן", "Riki Levisman", "Rebecca Levisman", "ריבקה לויסמן",
@@ -107,8 +107,8 @@ const jsonLd = {
       "@id": "https://rikilevisman.com/#person",
       "name": "ריקי לויסמן",
       "alternateName": ["Riki Levisman", "Rebecca Levisman", "ריבקה לויסמן"],
-      "jobTitle": "AI Lecturer & GenAI Adoption Leader",
-      "description": "מרצה AI לאקדמיה, לתעשייה, לארגונים ולעמותות. מעבירה הרצאות וסדנאות ובונה תכניות הכשרה ייעודיות: AI לסטודנטים, לסגל אקדמי, להורים, Physical AI ו-AI בעבודה. מלווה מנהלים 1:1.",
+      "jobTitle": "AI Lecturer, Keynote Speaker & GenAI Adoption Leader",
+      "description": "מרצה AI ו-Keynote speaker לכנסים, לאקדמיה, לתעשייה, לארגונים, למוסדות רפואיים ולעמותות. מעבירה הרצאות השראה על החיים עם סוכני AI, הרצאות וסדנאות ובונה תכניות הכשרה ייעודיות: AI לסטודנטים, לסגל אקדמי, להורים, ליזמים, Physical AI ו-AI בעבודה. מלווה מנהלים 1:1.",
       "knowsAbout": [
         "Generative AI", "GenAI", "AI Adoption", "AI in Healthcare",
         "AI Education", "AI Training for Organizations", "Innovation Management",

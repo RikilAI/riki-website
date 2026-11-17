@@ -63,7 +63,7 @@ export const content = {
         {
           title: "Physical AI בגובה העיניים",
           en: "Physical AI, Made Simple",
-          desc: "מה זה Physical AI ולמה מדברים עליו עכשיו, בלי נוסחאות ובלי קוד.",
+          desc: "מבוא ל-AI שיוצא מהמסך ופועל בעולם הפיזי. מה זה Physical AI, במה הוא שונה מהצ'אט שכולנו מכירים ולמה מדברים עליו עכשיו. דוגמאות מהתעשייה וסימולציות שאפשר לשחק איתן, בלי נוסחאות ובלי קוד.",
           formats: "הרצאת מבוא · קורס של 3 מפגשים · סדנה של חצי יום",
           isNew: false,
         },
@@ -77,7 +77,7 @@ export const content = {
         {
           title: "הורים בעידן ה-AI",
           en: "Parenting in the AI Era",
-          desc: "השאלה היא לא אם הלומד ישתמש ב-AI, אלא איך: בעבודות, בהכנה לבחינות ובלמידה עצמית, אחת המיומנויות החשובות היום. AI שעוזר להבין, ולא AI שעושה את העבודה במקומו.",
+          desc: "להורים שרוצים להנחות את הילדים, בכל גיל, איך ללמוד נכון עם AI: בעבודות, בהכנה לבחינות ובלמידה עצמית, אחת המיומנויות החשובות היום. AI שעוזר להבין, ולא AI שעושה את העבודה במקומם.",
           formats: "",
           isNew: true,
         },
@@ -205,7 +205,7 @@ export const content = {
         {
           title: "Physical AI, Made Simple",
           en: "AI in the physical world",
-          desc: "What Physical AI is and why everyone is talking about it, with no equations and no code.",
+          desc: "An introduction to AI that leaves the screen and acts in the physical world. What Physical AI is, how it differs from the chatbots we all know and why everyone is talking about it now. Industry examples and simulations you can play with, no equations and no code.",
           formats: "Intro talk · 3-session course · Half-day workshop",
           isNew: false,
         },
@@ -218,8 +218,8 @@ export const content = {
         },
         {
           title: "Parenting in the AI Era",
-          en: "Helping learners use AI wisely",
-          desc: "The question isn't whether learners will use AI, but how: for assignments, exam prep and self-directed learning, one of today's most important skills. AI that helps them understand, not AI that does the work for them.",
+          en: "Guiding your children to learn with AI",
+          desc: "For parents who want to guide their children, at any age, to learn well with AI: for assignments, exam prep and self-directed learning, one of today's most important skills. AI that helps them understand, not AI that does the work for them.",
           formats: "",
           isNew: true,
         },
