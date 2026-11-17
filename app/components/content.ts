@@ -31,7 +31,7 @@ export const content = {
       headingAccent: "לא כתחליף",
       p1: "אני מרצה, מנחה סדנאות ובונה תכניות הכשרה שהופכות את ה-AI לשותף אמיתי, באקדמיה, בתעשייה, בארגונים ובעמותות. בכל מפגש יש התנסות מעשית, וכל משתתף יוצא עם מדריך כתוב.",
       p2: "ביום-יום אני מנהלת חדשנות וראש תחום ה-AI במרכז היזמות והחדשנות של HIT, מכון טכנולוגי חולון.",
-      tags: ["1,000+ משתתפים", "3 מחזורי AI Academy", "72% מהמשתתפים התחילו ליישם", "הרצאות בארץ ובחו\"ל"],
+      tags: ["1,000+ משתתפים", "72% מהמשתתפים התחילו ליישם", "הרצאות בארץ ובחו\"ל"],
     },
 
     lectures: {
@@ -173,7 +173,7 @@ export const content = {
       headingAccent: "not a replacement",
       p1: "I give talks, run workshops and build training programs that turn AI into a real partner, in academia, industry, organizations and nonprofits. Every session is hands-on, and every participant leaves with a written guide.",
       p2: "By day I'm Innovation Manager and Head of AI at the Entrepreneurship and Innovation Center of HIT, Holon Institute of Technology.",
-      tags: ["1,000+ participants", "3 AI Academy cohorts", "72% of participants started applying AI", "Talks in Israel and abroad"],
+      tags: ["1,000+ participants", "72% of participants started applying AI", "Talks in Israel and abroad"],
     },
 
     lectures: {
