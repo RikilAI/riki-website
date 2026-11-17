@@ -1,33 +1,14 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
+import { PAGE_KEYS, pagePath, absUrl, CONTENT_UPDATED } from "./lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://rikilevisman.com";
-  const now = new Date();
-
-  return [
-    {
-      url: base,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 1.0,
-    },
-    {
-      url: `${base}/#about`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${base}/#services`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${base}/#contact`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.7,
-    },
-  ];
+  const lastModified = new Date(CONTENT_UPDATED);
+  return PAGE_KEYS.flatMap((key) => {
+    const languages = { he: absUrl(pagePath("he", key)), en: absUrl(pagePath("en", key)) };
+    return (["he", "en"] as const).map((lang) => ({
+      url: absUrl(pagePath(lang, key)),
+      lastModified,
+      alternates: { languages },
+    }));
+  });
 }

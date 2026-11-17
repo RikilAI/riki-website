@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Assistant:wght@300;400;500;600;700&family=Heebo:wght@300;400;500;700;900&display=swap');
-
 @import "tailwindcss";
 
 :root {
-  --font-playfair: 'Playfair Display', Georgia, serif;
-  --font-assistant: 'Assistant', system-ui, sans-serif;
 
   --navy-950: #06071a;
   --navy-900: #0a0c20;
@@ -32,16 +28,12 @@ html {
   scroll-behavior: smooth;
 }
 
-html[lang="he"],
-html[dir="rtl"] {
-  direction: rtl;
-  font-family: var(--font-assistant);
-}
+html { font-family: var(--font-heebo), system-ui, sans-serif; }
 
 body {
   background-color: #0a0a0a;
   color: #e8e4dc;
-  font-family: 'Heebo', var(--font-assistant);
+  font-family: var(--font-heebo), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 

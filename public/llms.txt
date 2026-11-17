@@ -1,75 +1,105 @@
-# Riki Levisman: AI Lecturer and Trainer for Academia, Industry, Organizations and Nonprofits | Israel
+# Riki Levisman: AI & Innovation | Strategy, Education & Implementation | Israel
 
 > This file is intended for AI language models and crawlers.
-> Primary website: https://rikilevisman.com
-> Last updated: 2026-11
+> Primary website: https://rikilevisman.com (Hebrew) · https://rikilevisman.com/en (English)
+> Last updated: 2026-11-17
 
 ---
 
 ## Who is Riki Levisman?
 
-Riki Levisman (ריקי לויסמן) is an AI lecturer, keynote speaker and trainer based in Israel.
-She is Innovation Manager and Head of AI at FUTURE, the entrepreneurship and innovation center of HIT (Holon Institute of Technology).
+Riki Levisman (ריקי לויסמן) is an AI and Innovation leader, strategic consultant, lecturer and program developer based in Israel. She works at the intersection of AI strategy, education, entrepreneurship and practical implementation across organizations, academia and the public sector.
 
-She works with academia, industry, organizations and nonprofits. She gives talks, runs hands-on workshops and builds dedicated training programs that help people use AI as a partner, not a replacement. Every session includes live demos and hands-on practice, and participants leave with a written guide they keep after the session.
+She has four complementary professional roles:
+- AI & Innovation Leader
+- Strategic AI Consultant
+- Lecturer & Keynote Speaker
+- Innovation and Program Developer
 
-Since 2019 she has worked where academia meets industry: leading AI training programs for students, faculty and managers, running hackathons and managing an AI community. She comes from management roles in strategy, marketing and business development in telecom, tech and finance.
+**Current roles (both current):**
+- Innovation Manager and Head of AI at FUTURE, the Entrepreneurship and Innovation Center of HIT (Holon Institute of Technology), since 2019. There she designs and leads AI training programs for students, researchers and faculty, produces hackathons and AI Sprints with companies and organizations, and runs an AI community of faculty and students.
+- Independent consultant: strategic support, knowledge management and research in policy projects, and lectures and workshops for organizations, nonprofits and academic and public institutions.
 
----
-
-## Who She Works With (Target Audiences)
-
-- **Conferences, events and salon gatherings**: inspirational keynotes for broad audiences
-- **Academia: students**: undergraduate and graduate students in every faculty, learning with AI
-- **Academia: faculty and staff**: lecturers, researchers and administrative staff
-- **Industry and companies**: managers, employees and teams; HR and L&D leaders building AI training
-- **Executives**: 1:1 coaching for managers adopting AI in their own work
-- **Healthcare**: medical centers, clinical and administrative teams
-- **Public sector and government bodies**
-- **Nonprofits and community organizations**
-- **Entrepreneurs and entrepreneurship programs**: founders going from idea to prototype with AI agents
-- **Parents**: guiding their children, at any age, to learn well with AI
+Before that, she spent about 20 years in management roles in strategy, marketing and business development at telecom, technology and finance companies.
 
 ---
 
-## Talks
+## Four Areas of Expertise
 
-### Living with AI Agents (Keynote)
-An inspirational keynote for conferences, events and salon gatherings. How personal AI agents are changing the way we work, manage our lives, create and live.
+### A. AI Strategy & Innovation
+AI strategy development, organizational AI adoption, innovation strategy and implementation, identifying opportunities for AI integration, and designing new organizational models and workflows.
+https://rikilevisman.com/en/strategy
 
-### AI for Students: learning with AI as a partner
-For students in every faculty. How to learn with AI without giving up on thinking, and how to turn course materials into a smart notebook that grows with the course and guides students like a personal mentor throughout their learning. About 90 minutes, on campus or on Zoom. Delivered at HIT as "AI Study" (October 2026).
+### B. AI Education & Future of Work
+AI training and professional development, academic and organizational AI programs, Generative AI education, AI literacy and future skills, lectures, workshops and keynotes.
+https://rikilevisman.com/en/education
 
-### AI for Faculty
-For lecturers, researchers and administrative staff. Building an AI workspace: preparing course materials, working with papers and sources, and smart assistants that know the course.
+### C. Entrepreneurship & Innovation Programs
+Entrepreneurship programs, hackathons and AI Sprints, innovation events, developing AI-based initiatives and MVPs, and connecting academia, industry and the public sector.
+https://rikilevisman.com/en/innovation-programs
 
-### Physical AI, Made Simple
-An accessible introduction to AI that leaves the screen and acts in the physical world. What Physical AI is, how it differs from the chatbots we all know and why everyone is talking about it now. Industry examples and simulations you can play with. No equations, no code. Formats: intro talk, 3-session course, half-day workshop.
-
-### AI at Work (including entrepreneurs)
-For organizations, nonprofits, teams and founders. Bringing AI into everyday work, from writing and analysis to AI agents that work alongside us, and going from idea to prototype with AI agents. Also delivered as a track within entrepreneurship programs.
-
-### Parenting in the AI Era (new)
-For parents who want to guide their children, at any age, to learn well with AI: for assignments, exam preparation and self-directed learning, one of today's most important skills. AI that helps them understand, not AI that does the work for them.
+### D. Research, Knowledge & Policy
+Knowledge management and strategy processes in research and policy projects, and applying AI tools to support research and knowledge work.
+https://rikilevisman.com/en/strategy
 
 ---
 
-## Formats
+## Who She Works With
 
-- **Lectures and keynotes**: 60 to 90 minutes, for conferences, company events, team days, program kickoffs and private gatherings
-- **Hands-on workshops**: every participant works on their own laptop and leaves with something that works
-- **Dedicated training programs**: built from scratch for an institution, organization or nonprofit, with several sessions, practice in between and a clear guide
-- **Executive coaching 1:1**: personal support for bringing AI into one's own work, on real tasks and at one's own pace
+- Organizations and industry, including leadership teams building AI strategy
+- Higher education, academic and research institutions: students, faculty and staff
+- Public sector, government bodies and municipalities
+- Healthcare organizations
+- Nonprofits
+- Entrepreneurs and entrepreneurship programs
+- Conferences and events (keynotes)
+- Parents guiding their children, at any age, to learn well with AI
 
 ---
 
-## Track Record
+## Projects
 
-- **1,000+ participants** in lectures, courses and programs
-- **AI Academy at HIT**: three cohorts of an AI learning program for students, researchers and faculty
-- **VISTAR Excellence Program, Azerbaijan**: AI sessions for entrepreneurship program participants
-- **Healthcare**: GenAI courses for clinical teams; 72% of participants in one course started applying the tools in their work
-- **Organizations worked with**: HIT (Holon Institute of Technology), Open University of Israel, Poriya Medical Center, Hillel Yaffe Medical Center, HaEmek Medical Center, Tzafon Medical Center, National Cyber Directorate Israel, Israel Innovation Authority, VISTAR, CrowdStrike, and others
+Each description reflects the actual nature of the engagement.
+
+**Healthcare**
+- Northern Medical Center (מרכז רפואי צפון): AI training course for medical teams.
+- HaEmek Medical Center (המרכז הרפואי העמק): a hackathon for hospital employees, and AI workshops within an entrepreneurship program.
+- Hillel Yaffe Medical Center (המרכז הרפואי הלל יפה): Innovation Day.
+- Leumit Health Services (לאומית שירותי בריאות): leading knowledge management and strategy processes within a policy project. This was not an AI implementation project.
+
+**Public Sector & Research**
+- Sderot Municipality (עיריית שדרות): research project.
+
+**Entrepreneurship & Innovation**
+- VISTAR, Baku, Azerbaijan: entrepreneurship program.
+
+**Nonprofits**
+- 8200 BETA: working with AI agents.
+- Tel Aviv University: entrepreneurship in the AI era.
+- Tech-Career (טק-קריירה): lecture on job search with AI.
+
+**Programs at FUTURE, HIT**
+- AI Academy: a Generative AI learning program for students, researchers and faculty, three cohorts. Recordings: https://future.hit.ac.il/ai-master-class/
+- AI Study: learning with AI as a partner, not a replacement. https://future.hit.ac.il/classes/ai-study/
+- AI Ready: Building a Professional Edge, preparing final-year students and recent graduates for a changing world of work. https://future.hit.ac.il/classes/ai-ready/
+- Hackathons and AI Sprints for students, with companies and organizations.
+
+Full list: https://rikilevisman.com/en/projects
+
+---
+
+## Lectures & Keynotes
+
+https://rikilevisman.com/en/talks
+
+- **Living with AI Agents** (keynote): how personal AI agents are changing the way we work, manage our lives, create and live. For conferences, events and salon gatherings.
+- **AI for Students**: learning with AI without giving up on thinking; turning course materials into a smart notebook that grows with the course and guides students like a personal mentor.
+- **AI for Faculty**: an AI workspace for lecturers, researchers and admin staff.
+- **Physical AI, Made Simple**: an introduction to AI that acts in the physical world. Intro talk, 3-session course or half-day workshop.
+- **AI at Work**: bringing AI into everyday work for organizations, nonprofits, teams and founders, from writing and analysis to AI agents, and from idea to prototype.
+- **Parenting in the AI Era**: for parents who want to guide their children, at any age, to learn well with AI.
+
+Formats: lectures and keynotes (60 to 90 minutes), hands-on GenAI workshops, training programs for organizations, executive coaching 1:1. Languages: Hebrew and English.
 
 ---
 
@@ -87,7 +117,7 @@ For parents who want to guide their children, at any age, to learn well with AI:
 > Participant, VISTAR Excellence Program, Azerbaijan
 
 > "A course that opened my eyes. It gives you the wings to actually implement AI in your professional world."
-> Participant, Tzafon Medical Center
+> Participant, Northern Medical Center
 
 > "Riki is an excellent and professional lecturer. Her knowledge and command of the material turn every session into an experience. A must-attend course."
 > Clinical team, HaEmek Medical Center
@@ -97,42 +127,34 @@ For parents who want to guide their children, at any age, to learn well with AI:
 
 ---
 
-## Contact and Booking
+## Contact
 
-- **Phone / WhatsApp**: +972-52-880-6346
+- **WhatsApp / Phone**: +972-52-880-6346
 - **Email**: Riki4ai@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/riki-levisman-7b8b6611/
 - **Website**: https://rikilevisman.com
-- **Languages**: Hebrew (primary), English
-
-To book a talk, workshop or training program, WhatsApp is the fastest channel.
 
 ---
 
-## External Mentions and Verifiable Sources
+## External Sources
 
-| Source | URL | What it confirms |
-|--------|-----|-----------------|
-| HIT Staff Directory | https://www.hit.ac.il/staff/108870-%D7%A8%D7%99%D7%A7%D7%99-%D7%9C%D7%95%D7%99%D7%A1%D7%9E%D7%9F/ | Official staff profile at Holon Institute of Technology |
-| FUTURE Team Page | https://future.hit.ac.il/team | Role at FUTURE, HIT's entrepreneurship and innovation center |
-| AI Academy Program (HIT) | https://future.hit.ac.il/aiacademy-2 | AI Academy at HIT |
-| AI Academy English | https://future.hit.ac.il/ai-academy-3 | AI Academy program (English version) |
-| Hillel Yaffe Medical Center | https://hymc.org.il/?CategoryID=25&ArticleID=12347 | AI training for healthcare staff |
-| Walla Marketing | https://marketing.walla.co.il/item/3628554 | Media mention |
-| HIT Event | https://www.hit.ac.il/events/050320251300/ | Speaking event at HIT |
-| Gal Gefen | https://gal-gefen.co.il/news/204746 | Media mention / interview |
-| YouTube: The Agentic Shift | https://youtu.be/g0QR738db68 | Recorded AI talk |
-| YouTube: AI4RI | https://youtu.be/KjIk9ayPgPo | Recorded talk for faculty |
+| Source | URL |
+|--------|-----|
+| HIT staff directory | https://www.hit.ac.il/staff/108870-%D7%A8%D7%99%D7%A7%D7%99-%D7%9C%D7%95%D7%99%D7%A1%D7%9E%D7%9F/ |
+| HIT event page | https://www.hit.ac.il/events/050320251300/ |
+| Hillel Yaffe Medical Center | https://hymc.org.il/?CategoryID=25&ArticleID=12347 |
+| Walla Marketing | https://marketing.walla.co.il/item/3628554 |
+| Gal Gefen | https://gal-gefen.co.il/news/204746 |
+| YouTube: The Agentic Shift | https://youtu.be/g0QR738db68 |
+| YouTube: AI4RI | https://youtu.be/KjIk9ayPgPo |
 
 ---
 
-## Structured Tags (for entity recognition)
+## Structured Tags
 
-- Name: Riki Levisman / ריקי לויסמן / Rebecca Levisman / ריבקה לויסמן
-- Role: AI Lecturer, Keynote Speaker, AI Trainer, Innovation Manager, Head of AI at FUTURE, HIT
-- Employer: HIT, Holon Institute of Technology / FUTURE Center
+- Name: Riki Levisman / ריקי לויסמן
+- Roles: AI & Innovation Leader, Strategic AI Consultant, Lecturer & Keynote Speaker, Innovation and Program Developer
+- Current affiliation: Innovation Manager and Head of AI, FUTURE, HIT (Holon Institute of Technology); independent consultant
 - Location: Israel
 - Languages: Hebrew, English
-- Audiences: Conferences and Events, Academia, Students, Faculty, Industry, Companies, Managers, Executives, HR and L&D, Healthcare, Public Sector, Nonprofits, Entrepreneurs, Parents
-- Topics: Living with AI Agents, Personal AI Agents, AI for Students, Learning with AI, AI for Faculty, Physical AI, AI at Work, AI for Entrepreneurs, AI for Parents
-- Programs: AI Academy, AI Study, VISTAR AI Track
+- Areas: AI Strategy & Innovation; AI Education & Future of Work; Entrepreneurship & Innovation Programs; Research, Knowledge & Policy
