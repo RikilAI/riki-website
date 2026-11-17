@@ -40,6 +40,13 @@ export const content = {
       newBadge: "חדש",
       items: [
         {
+          title: "החיים עם סוכני AI",
+          en: "הרצאת השראה · Keynote",
+          desc: "לכנסים, לאירועים ולמפגשי סלון. איך סוכני AI אישיים משנים את הדרך שבה אנחנו עובדים, מתנהלים, יוצרים וחיים.",
+          formats: "כנס · אירוע · מפגש סלון",
+          isNew: false,
+        },
+        {
           title: "AI for Students",
           en: "ללמוד עם AI כשותף",
           desc: "לסטודנטים מכל הפקולטות. איך לומדים עם AI בלי לוותר על החשיבה, ואיך הופכים את חומרי הקורס למחברת חכמה שמתפתחת עם הקורס ומלווה את הסטודנטים כמנטור אישי לאורך כל הלמידה.",
@@ -63,15 +70,8 @@ export const content = {
         {
           title: "AI בעבודה",
           en: "AI at Work",
-          desc: "לארגונים, לעמותות ולצוותים. איך משלבים AI בעבודה היומיומית, מכתיבה וניתוח מידע ועד סוכנים שעובדים איתנו, ומה לבדוק לפני שסומכים על התוצאה.",
+          desc: "לארגונים, לעמותות, לצוותים וליזמים. איך משלבים AI בעבודה היומיומית, מכתיבה וניתוח מידע ועד סוכנים שעובדים איתנו, ואיך עוברים מרעיון לאב טיפוס בעזרת סוכני AI.",
           formats: "הרצאה · סדנה מעשית · תכנית הכשרה",
-          isNew: false,
-        },
-        {
-          title: "AI ליזמים",
-          en: "מרעיון ל-MVP",
-          desc: "ליזמים ולתכניות יזמות. מרעיון לאב טיפוס בעזרת סוכני AI.",
-          formats: "הרצאה · סדנה · מסלול בתכנית יזמות",
           isNew: false,
         },
         {
@@ -182,6 +182,13 @@ export const content = {
       newBadge: "New",
       items: [
         {
+          title: "Living with AI Agents",
+          en: "Keynote",
+          desc: "For conferences, events and salon gatherings. How personal AI agents are changing the way we work, manage our lives, create and live.",
+          formats: "Conference · Event · Salon gathering",
+          isNew: false,
+        },
+        {
           title: "AI for Students",
           en: "Learning with AI as a partner",
           desc: "For students in every faculty. Learning with AI without giving up on thinking, and turning course materials into a smart notebook that grows with the course and guides students like a personal mentor throughout their learning.",
@@ -204,16 +211,9 @@ export const content = {
         },
         {
           title: "AI at Work",
-          en: "For organizations and nonprofits",
-          desc: "For organizations, nonprofits and teams. Bringing AI into everyday work, from writing and analysis to agents that work alongside us, and what to check before you trust the output.",
+          en: "For organizations, teams and founders",
+          desc: "For organizations, nonprofits, teams and founders. Bringing AI into everyday work, from writing and analysis to agents that work alongside us, and going from idea to prototype with AI agents.",
           formats: "Talk · Hands-on workshop · Training program",
-          isNew: false,
-        },
-        {
-          title: "AI for Entrepreneurs",
-          en: "From idea to MVP",
-          desc: "For founders and entrepreneurship programs. From idea to prototype with AI agents.",
-          formats: "Talk · Workshop · Track within a program",
           isNew: false,
         },
         {
