@@ -60,7 +60,6 @@ const he = {
 
   home: {
     pillarsLabel: "מה אני עושה",
-    pillarsHeading: "ארבעה תחומים שמשלימים זה את זה",
     pillars: [
       { title: "אסטרטגיה וחדשנות AI", desc: "איתור הזדמנויות ל-AI בארגון, בניית תוכנית והובלת היישום.", href: "strategy" },
       { title: "למידה עם AI ועתיד העבודה", desc: "תוכניות הכשרה, הרצאות וסדנאות לאקדמיה ולארגונים, מאוריינות AI ועד מיומנויות לעולם העבודה המשתנה.", href: "education" },
@@ -68,12 +67,10 @@ const he = {
       { title: "מחקר, ידע ומדיניות", desc: "ניהול ידע ותהליכי אסטרטגיה בפרויקטים של מחקר ומדיניות.", href: "strategy" },
     ] as Card[],
     talksLabel: "הרצאות ו-Keynotes",
-    talksHeading: "גם מפתחת, גם על הבמה",
     talksText: "הרצאות AI לארגונים ולאקדמיה, Keynotes לכנסים, סדנאות GenAI מעשיות ותוכניות הכשרה.",
     talksFeatured: { title: "החיים עם סוכני AI", sub: "הרצאת השראה · Keynote", desc: "איך סוכני AI אישיים משנים את הדרך שבה אנחנו עובדים, מתנהלים, יוצרים וחיים." },
     talksLink: "לכל ההרצאות",
     projectsLabel: "פרויקטים נבחרים",
-    projectsHeading: "איפה עבדתי",
     projectsLink: "לכל הפרויקטים",
     audiencesLabel: "עם מי אני עובדת",
     audiences: ["ארגונים ותעשייה", "אקדמיה ומוסדות מחקר", "מגזר ציבורי ורשויות", "מערכת הבריאות", "עמותות", "יזמים ותוכניות יזמות"],
@@ -205,8 +202,6 @@ const he = {
       "במקביל אני עובדת כיועצת עצמאית: ליווי אסטרטגי, ניהול ידע ומחקר בפרויקטים של מדיניות, והרצאות וסדנאות לארגונים, לעמותות ולמוסדות אקדמיים וציבוריים.",
       "לפני כן עבדתי כ-20 שנה בתפקידי ניהול באסטרטגיה, בשיווק ובפיתוח עסקי בחברות תקשורת, טכנולוגיה ופיננסים.",
     ],
-    rolesLabel: "ארבעה תפקידים",
-    roles: ["מובילת AI וחדשנות", "יועצת אסטרטגית ל-AI", "מרצה ו-Keynote speaker", "מפתחת תוכניות הכשרה וחדשנות"],
     areasLabel: "התחומים",
   },
 
@@ -295,7 +290,6 @@ const en: typeof he = {
 
   home: {
     pillarsLabel: "What I do",
-    pillarsHeading: "Four areas that work together",
     pillars: [
       { title: "AI Strategy & Innovation", desc: "Identifying AI opportunities, building the plan and leading implementation.", href: "strategy" },
       { title: "AI Education & Future of Work", desc: "Training programs, lectures and workshops for academia and organizations, from AI literacy to future-of-work skills.", href: "education" },
@@ -303,12 +297,10 @@ const en: typeof he = {
       { title: "Research, Knowledge & Policy", desc: "Knowledge management and strategy processes in research and policy projects.", href: "strategy" },
     ],
     talksLabel: "Lectures & Keynotes",
-    talksHeading: "Building programs, and on stage",
     talksText: "AI lectures for organizations and academia, conference keynotes, hands-on GenAI workshops and training programs.",
     talksFeatured: { title: "Living with AI Agents", sub: "Keynote", desc: "How personal AI agents are changing the way we work, manage our lives, create and live." },
     talksLink: "All talks",
     projectsLabel: "Selected projects",
-    projectsHeading: "Where I've worked",
     projectsLink: "All projects",
     audiencesLabel: "Who I work with",
     audiences: ["Organizations and industry", "Academia and research institutions", "Public sector and municipalities", "Healthcare", "Nonprofits", "Entrepreneurs and entrepreneurship programs"],
@@ -440,8 +432,6 @@ const en: typeof he = {
       "Alongside this role I work as an independent consultant: strategic support, knowledge management and research in policy projects, and lectures and workshops for organizations, nonprofits and academic and public institutions.",
       "Before that, I spent about 20 years in management roles in strategy, marketing and business development at telecom, technology and finance companies.",
     ],
-    rolesLabel: "Four roles",
-    roles: ["AI & Innovation Leader", "Strategic AI Consultant", "Lecturer & Keynote Speaker", "Innovation and Program Developer"],
     areasLabel: "Areas",
   },
 

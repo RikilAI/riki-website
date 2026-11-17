@@ -1,7 +1,6 @@
 import { copy } from "../../content/site";
 import { Lang, pagePath, WHATSAPP } from "../../lib/site";
-import { Shell, T, Testimonials, ContactBlock, SectionHead } from "../site/ui";
-import Reveal from "../site/Reveal";
+import { Shell, T, Testimonials, ContactBlock } from "../site/ui";
 import FilmStrip from "../site/FilmStrip";
 
 export default function HomePage({ lang }: { lang: Lang }) {
@@ -50,10 +49,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
       {/* PILLARS */}
       <section className="section border-top" aria-labelledby="pillars-h">
         <div className="wrap">
-          <Reveal>
-            <div className="label">{c.home.pillarsLabel}</div>
-            <h2 id="pillars-h" className="h2" style={{ marginBottom: 32 }}>{c.home.pillarsHeading}</h2>
-          </Reveal>
+          <h2 id="pillars-h" className="label" style={{ marginBottom: 24 }}>{c.home.pillarsLabel}</h2>
           <div className="grid grid-4">
             {c.home.pillars.map((p, i) => (
               <a key={p.title} href={pagePath(lang, p.href!)} className="card card-link">
@@ -70,11 +66,8 @@ export default function HomePage({ lang }: { lang: Lang }) {
       {/* TALKS */}
       <section className="section-tight" aria-labelledby="talks-h">
         <div className="wrap">
-          <Reveal>
-            <div className="label">{c.home.talksLabel}</div>
-            <h2 id="talks-h" className="h2">{c.home.talksHeading}</h2>
-            <p className="lead" style={{ marginBottom: 28 }}>{c.home.talksText}</p>
-          </Reveal>
+          <h2 id="talks-h" className="label">{c.home.talksLabel}</h2>
+          <p className="lead" style={{ marginBottom: 28 }}>{c.home.talksText}</p>
           <div className="cta-band">
             <div>
               <div className="title-row"><span style={{ fontSize: 20, fontWeight: 800, color: "#fff" }}>{c.home.talksFeatured.title}</span></div>
@@ -87,20 +80,23 @@ export default function HomePage({ lang }: { lang: Lang }) {
       </section>
 
       {/* PROJECTS */}
-      <section className="section" aria-labelledby="projects-h">
+      <section className="section-tight" aria-labelledby="projects-h">
         <div className="wrap">
-          <Reveal>
-            <SectionHead lang={lang} label={c.home.projectsLabel} heading={c.home.projectsHeading} />
-          </Reveal>
-          <div style={{ borderTop: "1px solid var(--line)" }}>
-            {allProjects.map((p) => (
-              <a key={p.org} href={pagePath(lang, "projects")} className="proj-row">
-                <T lang={lang} className="o">{p.org}</T>
-                <span className="d">{p.desc}</span>
-              </a>
-            ))}
-          </div>
-          <a href={pagePath(lang, "projects")} className="link-arrow" style={{ marginTop: 16 }}>{c.home.projectsLink}</a>
+          <details className="proj-details">
+            <summary>
+              <h2 id="projects-h" className="label" style={{ margin: 0 }}>{c.home.projectsLabel}</h2>
+              <span className="plus" aria-hidden="true" />
+            </summary>
+            <div style={{ borderTop: "1px solid var(--line)", marginTop: 16 }}>
+              {allProjects.map((p) => (
+                <a key={p.org} href={pagePath(lang, "projects")} className="proj-row">
+                  <T lang={lang} className="o">{p.org}</T>
+                  <span className="d">{p.desc}</span>
+                </a>
+              ))}
+            </div>
+            <a href={pagePath(lang, "projects")} className="link-arrow" style={{ marginTop: 16 }}>{c.home.projectsLink}</a>
+          </details>
         </div>
       </section>
 

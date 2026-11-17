@@ -221,10 +221,6 @@ export function AboutPage({ lang }: { lang: Lang }) {
           <img src="/images/opt/riki-portrait.jpg" alt={s.portraitAlt} width={600} height={600} className="portrait" loading="lazy" decoding="async" />
           <div>
             {s.paragraphs.map((p, i) => <p key={i} className="body" style={{ fontSize: i === 0 ? 18 : 16, color: i === 0 ? "#fff" : undefined }}>{p}</p>)}
-            <h2 className="label" style={{ marginTop: 32, fontWeight: 400 }}>{s.rolesLabel}</h2>
-            <ul className="chips" style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              {s.roles.map((r) => <li key={r} className="chip">{r}</li>)}
-            </ul>
           </div>
         </div>
       </section>
