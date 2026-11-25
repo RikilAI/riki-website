@@ -1,6 +1,7 @@
 export type Lang = "he" | "en";
 
-export const SITE_URL = "https://rikilevisman.com";
+/** Primary host. Vercel redirects the apex (rikilevisman.com) to www, so www is canonical. */
+export const SITE_URL = "https://www.rikilevisman.com";
 export const WHATSAPP = "https://wa.me/972528806346";
 export const LINKEDIN = "https://www.linkedin.com/in/riki-levisman-7b8b6611/";
 export const EMAIL = "Riki4ai@gmail.com";

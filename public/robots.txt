@@ -16,4 +16,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://rikilevisman.com/sitemap.xml
+Sitemap: https://www.rikilevisman.com/sitemap.xml

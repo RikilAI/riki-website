@@ -1,7 +1,7 @@
 # Riki Levisman: AI & Innovation | Strategy, Education & Implementation | Israel
 
 > This file is intended for AI language models and crawlers.
-> Primary website: https://rikilevisman.com (Hebrew) · https://rikilevisman.com/en (English)
+> Primary website: https://www.rikilevisman.com (Hebrew) · https://www.rikilevisman.com/en (English)
 > Last updated: 2026-11-17
 
 ---
@@ -28,19 +28,19 @@ Before that, she spent about 20 years in management roles in strategy, marketing
 
 ### A. AI Strategy & Innovation
 AI strategy development, organizational AI adoption, innovation strategy and implementation, identifying opportunities for AI integration, and designing new organizational models and workflows.
-https://rikilevisman.com/en/strategy
+https://www.rikilevisman.com/en/strategy
 
 ### B. AI Education & Future of Work
 AI training and professional development, academic and organizational AI programs, Generative AI education, AI literacy and future skills, lectures, workshops and keynotes.
-https://rikilevisman.com/en/education
+https://www.rikilevisman.com/en/education
 
 ### C. Entrepreneurship & Innovation Programs
 Entrepreneurship programs, hackathons and AI Sprints, innovation events, developing AI-based initiatives and MVPs, and connecting academia, industry and the public sector.
-https://rikilevisman.com/en/innovation-programs
+https://www.rikilevisman.com/en/innovation-programs
 
 ### D. Research, Knowledge & Policy
 Knowledge management and strategy processes in research and policy projects, and applying AI tools to support research and knowledge work.
-https://rikilevisman.com/en/strategy
+https://www.rikilevisman.com/en/strategy
 
 ---
 
@@ -84,13 +84,13 @@ Each description reflects the actual nature of the engagement.
 - AI Ready: Building a Professional Edge, preparing final-year students and recent graduates for a changing world of work. https://future.hit.ac.il/classes/ai-ready/
 - Hackathons and AI Sprints for students, with companies and organizations.
 
-Full list: https://rikilevisman.com/en/projects
+Full list: https://www.rikilevisman.com/en/projects
 
 ---
 
 ## Lectures & Keynotes
 
-https://rikilevisman.com/en/talks
+https://www.rikilevisman.com/en/talks
 
 - **Living with AI Agents** (keynote): how personal AI agents are changing the way we work, manage our lives, create and live. For conferences, events and salon gatherings.
 - **AI for Students**: learning with AI without giving up on thinking; turning course materials into a smart notebook that grows with the course and guides students like a personal mentor.
@@ -132,7 +132,7 @@ Formats: lectures and keynotes (60 to 90 minutes), hands-on GenAI workshops, tra
 - **WhatsApp / Phone**: +972-52-880-6346
 - **Email**: Riki4ai@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/riki-levisman-7b8b6611/
-- **Website**: https://rikilevisman.com
+- **Website**: https://www.rikilevisman.com
 
 ---
 
