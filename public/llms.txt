@@ -65,7 +65,7 @@ Each description reflects the actual nature of the engagement.
 - Northern Medical Center (מרכז רפואי צפון): AI training course for medical teams.
 - HaEmek Medical Center (המרכז הרפואי העמק): a hackathon for hospital employees, and AI workshops within an entrepreneurship program.
 - Hillel Yaffe Medical Center (המרכז הרפואי הלל יפה): Innovation Day.
-- Leumit Health Services (לאומית שירותי בריאות): leading knowledge management and strategy processes within a policy project. This was not an AI implementation project.
+- Leumit Health Services (לאומית שירותי בריאות): building infrastructure for leading knowledge management and strategy processes. This was not an AI implementation project.
 
 **Public Sector & Research**
 - Sderot Municipality (עיריית שדרות): research project.
